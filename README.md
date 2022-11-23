@@ -4,7 +4,9 @@
   <img width="384" height="256" src="parrot2.png">
 </p>
 
-This is the replicate COG for prompt parrot. 
+[Run Prompt Parrot on Replicate!](https://replicate.com/kyrick/prompt-parrot)
+
+This is the official "fork" of the [Prompt Parrot Colab](https://colab.research.google.com/drive/1GtyVgVCwnDfRvfsHbeU0AlG-SgQn1p8e?usp=sharing) for Replicate. But you can also run it locally!
 
 To run: 
 1. create a python virtualenv
