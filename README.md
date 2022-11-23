@@ -8,10 +8,11 @@
 
 This is the official "fork" of the [Prompt Parrot Colab](https://colab.research.google.com/drive/1GtyVgVCwnDfRvfsHbeU0AlG-SgQn1p8e?usp=sharing) for Replicate. But you can also run it locally!
 
-To run: 
+To run locally: 
 1. create a python virtualenv
 1. `pip install cog`
-1. create folder `models/` and download into it `config.json` and `pytorch_model.bin` from gdrive:  
+1. [Download the model from gdrive](https://drive.google.com/drive/folders/1X7PoqEEN8qxV6wvHnHuOWGm7T3Zr2l2w?usp=sharing). 
+  1. Download `config.json` and `pytorch_model.bin` into folder `models/`.  
 1. in terminal execute: `sudo cog predict -i prompt="a crystal fortress in a field of flowers"`
 
 # Credits
