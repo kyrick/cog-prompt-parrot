@@ -8,7 +8,25 @@
 
 This is the official "fork" of the [Prompt Parrot Colab](https://colab.research.google.com/drive/1GtyVgVCwnDfRvfsHbeU0AlG-SgQn1p8e?usp=sharing) for Replicate. But you can also run it locally!
 
-To run locally: 
+# What is Prompt Parrot?
+
+Prompt Parrot takes a text input and generates text2image prompts you can use with Stable Diffusion, Midjourney, etc. To use the parrot, you provide a base prompt and the parrot completes the rest of the prompt. It's a bit like mad libs for text prompts except more orderly (in theroy)! Prompt Parrot is an idea generating tool. It may present you with interesting styles and fantastic combinations!
+
+Example usage: input a base prompt such as "a majestic horse in a field" and see what the Parrot comes up with! 
+
+### What is it?
+
+Prompt Parrot started life as a colab to finetune your own distilgpt2 model on your own prompts and then generate prompts in your style. This version is still online and you can try it out here: [Prompt Parrot Colab](https://colab.research.google.com/drive/1GtyVgVCwnDfRvfsHbeU0AlG-SgQn1p8e?usp=sharing)
+
+Eventually, it became clear that providing many prompts was a barrier to entry. It's difficult to pull together a large amount of prompts. So the hosted model is distilgpt2 fine-tuned on a corpus of 51,747 community provided text prompts. The model uses this training data to geberate prompts for text2image prompt generators.
+
+# Online Runs
+
+[Run Prompt Parrot on Replicate!](https://replicate.com/kyrick/prompt-parrot)
+
+# Local Runs
+
+Steps: 
 1. create a python virtualenv
 1. `pip install cog`
 1. [Download the model from gdrive](https://drive.google.com/drive/folders/1X7PoqEEN8qxV6wvHnHuOWGm7T3Zr2l2w?usp=sharing). 
